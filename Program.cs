@@ -109,7 +109,7 @@ Item? ParseOfferingItem(HtmlDocument document)
         if (match.Success)
         {
             return new Item()
-                .WithName(match.Groups[2].Value)
+                .WithName(match.Groups[2].Value.Replace(":", "-"))
                 .WithQuantity(int.Parse(match.Groups[1].Value))
                 .WithIcon(itemIconUrl);
         }
