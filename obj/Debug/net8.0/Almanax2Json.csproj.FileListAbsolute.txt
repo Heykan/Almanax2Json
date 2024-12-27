@@ -15,3 +15,5 @@ c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\ref\Almanax2J
 c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\bin\Debug\net8.0\HtmlAgilityPack.dll
 c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.csproj.AssemblyReference.cache
 c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2.7CDE4CEC.Up2Date
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\bin\Debug\net8.0\almanax.csv
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.sourcelink.json

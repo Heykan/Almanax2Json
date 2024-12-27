@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Almanax2Json")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b5496bdccb5482424f0712cab6856bedef51c02")]
 [assembly: System.Reflection.AssemblyProductAttribute("Almanax2Json")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Almanax2Json")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

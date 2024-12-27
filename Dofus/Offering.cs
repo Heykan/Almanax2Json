@@ -2,6 +2,7 @@ namespace Almanax2Json.Dofus;
 
 public class Offering {
     public string Name { get; private set; }
+    public int Kamas { get; private set; }
     public Bonus Bonus {get; private set; }
     public Item Item { get; private set; }
     public Protector Protector { get; private set; }
@@ -10,6 +11,11 @@ public class Offering {
 
     public Offering WithName(string name) {
         Name = name;
+        return this;
+    }
+
+    public Offering WithKamas(int kamas) {
+        Kamas = kamas;
         return this;
     }
 

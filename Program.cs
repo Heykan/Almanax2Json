@@ -22,8 +22,9 @@ try
         await Task.Delay(800);
     }
 }
-catch
+catch(Exception ex)
 {
+    Console.WriteLine(ex.Message);
     Serializer.Serialize(offerings, "data.json");
 }
 
@@ -36,9 +37,11 @@ async Task<Offering> ParseOfferingForDate(DateTime date)
     string formattedDate = date.ToString("yyyy-MM-dd");
     string url = $"{KROSMOZ_BASE_URL}/{formattedDate}";
 
+    int[] kamas = GetKamas("almanax.csv");
+
     HtmlDocument document = LoadHtmlDocument(url);
 
-    Offering offering = new Offering().WithDate(date);
+    Offering offering = new Offering().WithDate(date).WithKamas(kamas[date.Date.DayOfYear - 1]);
 
     offering.WithBonus(ParseBonus(document));
     offering.WithItem(ParseOfferingItem(document));
@@ -136,6 +139,23 @@ Protector ParseProtector(HtmlDocument document)
     string protectorImageUrl = GetAttributeValue(document, protectorImageSelector, "src");
     string protectorName = CleanLines(protectorNode?.InnerText)[0];
     return new Protector().WithName(protectorName).WithIcon(protectorImageUrl);
+}
+
+int[] GetKamas(string filename)
+{
+    List<int> kamasList = new();
+    using (var reader = new StreamReader(filename))
+    {
+        while (!reader.EndOfStream)
+        {
+            var value = reader.ReadLine().Split(',');
+            if (value.Last() == "Kamas") continue;
+
+            kamasList.Add(int.Parse(value.Last()));
+        }
+    }
+
+    return kamasList.ToArray();
 }
 
 string GetAttributeValue(HtmlDocument document, string xpath, string attribute)
