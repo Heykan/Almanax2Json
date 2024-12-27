@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TWRKPD6vg9k=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Yoshino\\Documents\\Projet\\C#\\Almanax2Json\\Almanax2Json.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yoshino\\.nuget\\packages\\htmlagilitypack\\1.11.71\\htmlagilitypack.1.11.71.nupkg.sha512"
+  ],
+  "logs": []
+}

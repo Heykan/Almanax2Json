@@ -1,0 +1,17 @@
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\bin\Debug\net8.0\Almanax2Json.exe
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\bin\Debug\net8.0\Almanax2Json.deps.json
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\bin\Debug\net8.0\Almanax2Json.runtimeconfig.json
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\bin\Debug\net8.0\Almanax2Json.dll
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\bin\Debug\net8.0\Almanax2Json.pdb
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.AssemblyInfoInputs.cache
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.AssemblyInfo.cs
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.csproj.CoreCompileInputs.cache
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.dll
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\refint\Almanax2Json.dll
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.pdb
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.genruntimeconfig.cache
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\ref\Almanax2Json.dll
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\bin\Debug\net8.0\HtmlAgilityPack.dll
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2Json.csproj.AssemblyReference.cache
+c:\Users\Yoshino\Documents\Projet\C#\Almanax2Json\obj\Debug\net8.0\Almanax2.7CDE4CEC.Up2Date
